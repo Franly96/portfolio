@@ -1,0 +1,185 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  min-height: 80px;
+  height: 10vh;
+  font-size: 32px;
+  font-weight: 800;
+  padding-left: 20px;
+  padding-top: 20px;
+  justify-content: center;
+}
+
+main {
+  max-width: 900px;
+  height: 90vh;
+  margin: auto;
+}
+
+.profile-info {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  height: 100%;
+}
+
+.profile-img {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+#profile-img {
+  max-width: 200px;
+  max-height: 244px;
+  border-radius: 40%;
+}
+
+.info-direction {
+  font-size: larger;
+}
+
+.profile-contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  color: #696969;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.info-title {
+  color: black;
+  font-size: 54px;
+  font-weight: 900;
+}
+
+.info-description {
+  font-size: larger;
+  line-height: 140%;
+}
+
+.skills-info {
+  color: black;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 50px;
+}
+
+.skills-title {
+  font-size: 44px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.skills-table {
+  font-family: Consolas, monaco, monospace;
+  background-color: #c0c0c0;
+  color: black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.skills-table-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.experience-info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 50px;
+}
+.experience-title {
+  color: black;
+  font-size: 44px;
+  font-weight: 800;
+   text-align: center;
+}
+
+.experience-cards {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 25px;
+}
+
+.experience-card {
+  border-radius: 10px;
+  box-shadow: 5px 10px 10px gray;
+  min-width: 300px;
+  min-height: 300px;
+  max-width: 480px;
+  max-height: 480px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 14px;
+}
+
+.experience-info-detail{
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-company-name{
+    font-size: 34px;
+    font-weight: 900;
+}
+
+.experience-position{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.experience-info-detail-2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 20px;
+    padding-right: 10px;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.task-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    padding: 10px;
+    gap: 20px;
+    font-size: 18px;
+}
+
