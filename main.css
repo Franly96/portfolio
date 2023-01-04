@@ -10,26 +10,35 @@ a:hover {
   text-decoration: underline;
 }
 
-header {
-  min-height: 80px;
-  height: 10vh;
+.header {
   font-size: 32px;
   font-weight: 800;
   padding-left: 20px;
-  padding-top: 20px;
-  justify-content: center;
 }
 
-main {
-  max-width: 900px;
-  height: 90vh;
-  margin: auto;
+.container {
+    position: relative;
+    height: 100vh;
+    scroll-behavior: smooth;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+}
+
+.section {
+    max-width: 1024px;
+    height: 100vh;
+    background-size:  cover;
+    scroll-snap-align: start;
+    margin: auto;
+    display: grid;
+    align-items: center;
+    justify-content:center;
 }
 
 .profile-info {
   display: grid;
   grid-template-columns: 70% 30%;
-  height: 100%;
+  height: inherit;
 }
 
 .profile-img {
@@ -93,7 +102,7 @@ main {
   font-family: Consolas, monaco, monospace;
   background-color: #c0c0c0;
   color: black;
-  padding: 10px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -122,6 +131,7 @@ main {
   justify-content: start;
   gap: 50px;
 }
+
 .experience-title {
   color: black;
   font-size: 44px;
